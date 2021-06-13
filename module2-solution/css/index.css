@@ -24,9 +24,9 @@ h1 {
 
 section#beef > h2, section#chicken > h2, section#pork > h2 {
   border: 1px solid black;
-  width: 40%;
-  position: relative;
-  left: 60%;
+  width: 150px;
+  position: absolute;
+  right: 0%;
 }
 section#beef > h2 {
   background-color: salmon;
@@ -41,13 +41,13 @@ section#pork > h2 {
 section {
   background-color: lightblue;
   border: 1px solid black;
+  position: relative;
+  overflow: hidden;
 }
 section#beef > p, section#chicken > p, section#pork > p {
-  /* font-family: 'Times New Roman', Times, serif; */
   padding: 0;
-  margin: 10px 10px 0px 10px;
+  margin: 35px 10px 0px 10px;
   overflow: hidden;
-  /* font-size: ; */
 }
 
 /*** Simple Responsive Framework ***/
