@@ -1,0 +1,26 @@
+#header-nav {
+    background-color: darkgray;
+    border-radius: 0;
+    border: 2px solid black;
+    height: 75px;
+}
+h1 {
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+/* div.row > section {
+    background-color: darkgray;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section > h2 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+} */
+
