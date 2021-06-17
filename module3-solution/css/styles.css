@@ -4,7 +4,7 @@
     border: 2px solid black;
 }
 h1, h2#page-heading {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px;
     color: black;
     margin: 0;
@@ -43,7 +43,7 @@ button.navbar-toggle .icon-bar + .icon-bar {
 }
 
 div.col-xs-12 > section {
-    background-color: darkgray;
+    background-color: lightgray;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -59,7 +59,6 @@ section > h2 {
 section > p {
     color: black;
     font-size: 15px;
-    font-weight: 600;
 }
 
 /** Tablets and Desktop Views **/
