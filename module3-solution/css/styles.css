@@ -2,25 +2,71 @@
     background-color: darkgray;
     border-radius: 0;
     border: 2px solid black;
-    height: 75px;
 }
-h1 {
+h1, h2#page-heading {
     font-weight: bold;
+    font-size: 30px;
     color: black;
     margin: 0;
 }
+h2#page-heading {
+    margin-bottom: 30px;
+}
+.navbar-header button.navbar-toggle {
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+button.navbar-toggle .icon-bar {
+    border: 3px solid black;
+    height: 5px;
+    width: 40px;
+}
+button.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 8px;
+}
+.divider {
+    border: 1px solid black;
+}
+#nav-list h2 {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#nav-list {
+    background-color: tan;
+    border: 2px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
-/* div.row > section {
+div.col-xs-12 > section {
     background-color: darkgray;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 section > h2 {
     color: black;
-    margin-top: 10px;
+    padding-top: 5px;
+    margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
-    font-weight: bold;
-} */
+    font-weight: 800;
+}
+section > p {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/** Tablets and Desktop Views **/
+@media (min-width: 768px) {
+    #header-nav {
+        height: 80px;
+    }
+}
+
 
